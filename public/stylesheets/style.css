@@ -1,8 +1,40 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.nav {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #00CC99;
+  background-size: cover;
 }
 
-a {
-  color: #00B7FF;
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #5a5a5a;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  background-color: #534B4F;
+  height: 510px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.jumbotron .container {
+   top:100px;
+}
+
+.jumbotron .box {
+  border-radius: 25px;
+  background-color: #91A3B0;
+  height: 100%;
+  width: 45%;
+}
+
+.input-group {
+  top:50px;
 }
